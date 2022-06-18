@@ -1,0 +1,39 @@
+.feedback {
+    padding-bottom: 71px;
+    &__item {
+        margin-top: 70px;
+        display: flex;
+    }
+    &__img {
+        width: 169px;
+        height: 169px;
+        margin-right: 62px;
+    }
+    &__descr {
+        font-size: 16px;
+        line-height: 1.2;
+        font-weight: 500;
+        color: #0d0d0d;
+        span {
+            font-size: 14px;
+            line-height: 14px;
+            font-weight: 300;
+            color: #646464;
+        }
+    }
+    &__name {
+        font-size: 18px;
+        line-height: 18px;
+        font-weight: 700;
+        color: #0d0d0d;
+        margin-bottom: 12px;
+    }
+
+    &__wrapper {
+        hr {
+            margin-top: 50px;
+            margin-bottom: 0;
+            background-color: #918f8f;
+        }
+    }
+}
