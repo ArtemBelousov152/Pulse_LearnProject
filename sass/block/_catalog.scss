@@ -79,6 +79,7 @@
             font-weight: 500;
             color: #0d0d0d;
             text-align: center;
+            padding: 0 10px;
         }
         &__link {
             display: block;
@@ -139,7 +140,10 @@
             transition: 0.5s all;
             padding-left: 17px;
             margin-bottom: 0;
-            list-style-type: none;
+            ul {
+                list-style-type: none;
+                padding-left: 0;
+            }
             li {
                 position: relative;
                 font-size: 14px;
